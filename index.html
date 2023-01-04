@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>한국에너지공단</title>
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+
+  <!-- ===== slick.css ===== -->
+  <link rel="stylesheet" href="./css/slick-theme.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <!-- ===== style.css ===== -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- ===== js ===== -->
+  <script type="text/javascript" src="script/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="script/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="script/slick.min.js"></script>
+  <script src="script/jquery.scrollTo.min.js"></script>
+</head>
+
+<body>
+  <div id="hd_wrap">
+    <!-- ===== header ===== -->
+    <header id="hd">
+      <nav class="tnb_skip">
+        <ul class="tnb_right">
+          <li><a href="#none">경영공시</a></li>
+          <li><a href="#none">사이트맵</a></li>
+          <li class="lang">
+            <a href="#none">Language&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+          </li>
+        </ul> <!-- tnb_right -->
+      </nav> <!-- tnb_skip -->
+
+      <nav id="gnb">
+        <nav class="gnb_skip">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="kea_logo"></a>
+          </div>
+
+          <nav id="navi">
+            <ul>
+              <li><a href="#" class="navi_menu">신·재생에너지</a>
+                <div class="sub_menu">
+                  <a href="#none">신·재생에너지 정책</a>
+                  <a href="#none">풍력사업</a>
+                  <a href="#none">태양광사업</a>
+                  <a href="#none">신·재생에너지 산업</a>
+                  <a href="#none">신·재생에너지 보급</a>
+                  <a href="#none">RPS 사업</a>
+                  <a href="#none">종합지원센터</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul>
+              <li><a href="#" class="navi_menu">에너지효율향상</a>
+                <div class="sub_menu">
+                  <a href="#none">산업부문</a>
+                  <a href="#none">건물부문</a>
+                  <a href="#none">수송부문</a>
+                  <a href="#none">기기부문</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul>
+              <li><a href="#" class="navi_menu">기후변화대응</a>
+                <div class="sub_menu">
+                  <a href="#none">통계분석 기반구축</a>
+                  <a href="#none">온실가스 검·인증</a>
+                  <a href="#none">국제협력</a>
+                  <a href="#none">해외진출지원</a>
+                  <a href="#none">해외에너지 정보</a>
+                  <a href="#none">온실가스 감축 제도</a>
+                  <a href="#none">에너지 바우처</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul>
+              <li><a href="#" class="navi_menu">정보마당</a>
+                <div class="sub_menu">
+                  <a href="#none">공단소식</a>
+                  <a href="#none">조달공고</a>
+                  <a href="#none">정보공개</a>
+                  <a href="#none">에너지통계</a>
+                  <a href="#none">자료실</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul>
+              <li><a href="#" class="navi_menu">홍보교육마당</a>
+                <div class="sub_menu">
+                  <a href="#nonenone">홍보</a>
+                  <a href="#nonenone">교육</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul>
+              <li><a href="#" class="navi_menu">공단소개</a>
+                <div class="sub_menu">
+                  <a href="#none">CEO 인사말</a>
+                  <a href="#none">공단소개</a>
+                  <a href="#none">경영공시</a>
+                  <a href="#none">윤리경영</a>
+                  <a href="#none">인권경영</a>
+                  <a href="#none">사회공헌</a>
+                  <a href="#none">고객센터</a>
+                </div>
+              </li>
+            </ul>
+            <div class="bg"></div>
+          </nav>
+
+          <div id="tog_search">
+            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
+
+          <nav id="lnb">
+            <input type="checkbox" id="toggle">
+            <label for="toggle" class="toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+
+            <div class="sidebar">
+              <div class="side-text">
+                <ul>
+                  <li><a href="#none">신·재생에너지</a></li>
+                  <li><a href="#none">에너지효율향상</a></li>
+                  <li><a href="#none">기후변화대응</a></li>
+                  <li><a href="#none">정보마당</a></li>
+                  <li><a href="#none">홍보교육마당</a></li>
+                  <li><a href="#none">공단소개</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </nav>
+      </nav>
+    </header>
+  </div>
+
+  <!-- ===== 1 page ===== -->
+  <div class="page" id="page1">
+    <main id="main_inner">
+      <section class="textbox">
+        <img src="img/tit.png" alt="메인타이틀" class="tit">
+
+        <form action="#" id="frm1">
+          <input type="text" name="text" id="keywords" placeholder="검색어를 입력해 주세요.">
+          <i class="fa fa-search fa-sea" aria-hidden="true"></i>
+        </form>
+
+        <div id="content">
+          <h3>인기검색어</h3>
+          <ul id="rank-list">
+            <li>
+              <ol>
+                <li><a href="#none"><span>1.</span> 효율등급신고</a></li>
+                <li><a href="#none"><span>2.</span> 주택지원</a></li>
+                <li><a href="#none"><span>3.</span> RPS</a></li>
+                <li><a href="#none"><span>4.</span> 효율바다</a></li>
+                <li><a href="#none"><span>5.</span> 태양광</a></li>
+                <li><a href="#none"><span>6.</span> 고객센터</a></li>
+                <li><a href="#none"><span>7.</span> 배출량 자동계산</a></li>
+                <li><a href="#none"><span>8.</span> 고객센터</a></li>
+                <li><a href="#none"><span>9.</span> 건물에너지절약계획서</a></li>
+                <li><a href="#none"><span>10.</span> 태양열</a></li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ===== 2 page ===== -->
+  <div class="page" id="page2">
+    <div id="menu_skip">
+      <h2 class="menu_tit">자주 찾는 메뉴</h2>
+      <ul class="menu-box">
+        <li><a href="#none">
+            <span><img src="img/icon/kea-icon1.png" alt="kea-icon1"></span>
+            <p>신재생에너지<br>전자민원서비스</p>
+          </a></li>
+
+        <li><a href="#none">
+            <span><img src="img/icon/kea-icon2.png" alt="kea-icon2"></span>
+            <p>신재생에너지<br>코리아</p>
+          </a></li>
+
+        <li><a href="#none">
+            <span><img src="img/icon/kea-icon3.png" alt="kea-icon3"></span>
+            <p>주택지원<br>(그린홈)</p>
+          </a></li>
+
+        <li><a href="#none">
+            <span><img src="img/icon/kea-icon4.png" alt="kea-icon4"></span>
+            <p>RPA/RPS<br>통합관리시스템</p>
+          </a></li>
+
+        <li><a href="#none">
+            <span><img src="img/icon/kea-icon5.png" alt="kea-icon5"></span>
+            <p>신재생 금융지원</p>
+          </a></li>
+
+        <li><a href="#none">
+            <span><img src="img/icon/kea-icon6.png" alt="kea-icon6"></span>
+            <p>효율바다<br>(효율관리제도)</p>
+          </a></li>
+
+        <li><a href="#none">
+            <span><img src="img/icon/kea-icon8.png" alt="kea-icon8"></span>
+            <p class="font">ICAT<br>(산업계기후변화<br>취약성 적응<br> 진단툴)</p>
+          </a></li>
+
+        <li><a href="#none">
+            <span><img src="img/icon/kea-icon9.png" alt="kea-icon9"></span>
+            <p>에너지 사용량 신고</p>
+          </a></li>
+
+        <li><a href="#none">
+            <span><img src="img/icon/kea-icon10.png" alt="kea-icon10"></span>
+            <p>에너지 혁신<br>인재 육성실</p>
+          </a></li>
+      </ul>
+    </div>
+
+    <div id="tab_menu">
+      <div class="btn">
+        <span class="active">공지사항</span>
+        <span>보도</span>
+        <span>입찰</span>
+        <span>자료실</span>
+      </div>
+
+      <div class="tabs-1">
+        <div class="tab1-1"><a href="#none">
+            <span>22년 에너지신산업 기반구축사업 온라인 설명회 발표자료</span>
+            <p>2022-03-23</p>
+          </a></div>
+
+        <div class="tab1-2"><a href="#none">
+            <span>2022~2023년 한국에너지공단 임직원 건강검진 협약사업 추진기관 모집 공고</span>
+            <p>2022-03-22</p>
+          </a></div>
+
+        <div class="tab1-3"><a href="#none">
+            <span>2022년 에너지신산업기반구축사업 온라인 설명회 개최 안내</span>
+            <p>2022-03-18</p>
+          </a></div>
+
+        <div class="tab1-4"><a href="#none">
+            <span>2022년 재생에너지 지역확산을 위한 민간단체 협력사업 공고</span>
+            <p>2022-03-16</p>
+          </a></div>
+
+        <div class="tab1-5"><a href="#none">
+            <span>2022년 경상남도 중소기업 에너지진단·개선지원 사업 공고</span>
+            <p>2022-03-15</p>
+          </a></div>
+
+        <div class="tablast tab1-6"><a href="#none">
+            <span>2022년 에너지신산업기반구축(융합시스템보급사업) 시행 공고 안내</span>
+            <p>2022-03-11</p>
+          </a></div>
+      </div>
+
+      <div class="tabs-2">
+        <div class="tab2-1"><a href="#none">
+            <span>한국에너지공단, 2022년 에너지신산업 기반구축사업 설명회 개최</span>
+            <p>2022-03-23</p>
+          </a></div>
+
+        <div class="tab2-2"><a href="#none">
+            <span>한국에너지공단, 청렴 공정은 젊음의 힘으로</span>
+            <p>2022-03-22</p>
+          </a></div>
+
+        <div class="tab2-3"><a href="#none">
+            <span>한국에너지공단, 국내 최초 「열수송관 안전진단」 추진</span>
+            <p>2022-03-18</p>
+          </a></div>
+
+        <div class="tab2-4"><a href="#none">
+            <span>2022년 재생에너지 지역확산을 위한 민간단체 협력사업 공모 시작</span>
+            <p>2022-03-16</p>
+          </a></div>
+
+        <div class="tab2-5"><a href="#none">
+            <span>2022년 한국에너지대상 유공자 추천(신청) 접수</span>
+            <p>2022-03-14</p>
+          </a></div>
+
+        <div class="tablast tab2-6"><a href="#none">
+            <span>한국에너지공단, 2022년 시민홍보협력사업 공모 시작</span>
+            <p>2022-03-08 </p>
+          </a></div>
+      </div>
+
+
+      <div class="tabs-3">
+        <div class="tab3-1"><a href="#none">
+            <span>집단에너지 열수송관 굴착공사정보시스템 유지관리</span>
+            <p>2022-03-22</p>
+          </a></div>
+
+        <div class="tab3-2"><a href="#none">
+            <span>(재공고)한국에너지공단 2022년도 단체보험 운영</span>
+            <p>2022-03-22</p>
+          </a></div>
+
+        <div class="tab3-3"><a href="#none">
+            <span>2022년도 신재생에너지 보급통계 조사 및 분석</span>
+            <p>2022-03-21</p>
+          </a></div>
+
+        <div class="tab3-4"><a href="#none">
+            <span>에너지 온실가스 종합정보 플랫폼(EG TIPS) 유지보수</span>
+            <p>2022-03-21</p>
+          </a></div>
+
+        <div class="tab3-5"><a href="#none">
+            <span>국가온실가스종합정보서비스(NETIS) 웹 호환성 개선</span>
+            <p>2022-03-21</p>
+          </a></div>
+
+        <div class="tablast tab3-6"><a href="#none">
+            <span>2022년 산업부문 온실가스 배출량 조사</span>
+            <p>2022-03-21 </p>
+          </a></div>
+      </div>
+
+      <div class="tabs-4">
+        <div class="tab4-1"><a href="#none">
+            <span>수입 검사대상기기 제조검사 매뉴얼(Rev_6.1)</span>
+            <p>2022.02.16</p>
+          </a></div>
+        <div class="tab4-2"><a href="#none">
+            <span>국내 검사대상기기 제조검사 매뉴얼(Ver.1)</span>
+            <p>2022.02.16</p>
+          </a></div>
+        <div class="tab4-3"><a href="#none">
+            <span>압력용기 내용적 정산 지시서(발행일 2021.11.15)</span>
+            <p>2022.02.15</p>
+          </a></div>
+        <div class="tab4-4"><a href="#none">
+            <span>열수송관 안전진단 매뉴얼 게시</span>
+            <p>2022.02.14 </p>
+          </a></div>
+        <div class="tab4-5"><a href="#none">
+            <span>검사대상기기 검사민원양식 개정 안내(22.01.26)</span>
+            <p>2022.01.28</p>
+          </a></div>
+        <div class=" tablast tab4-6"><a href="#none">
+            <span>2021 집단에너지사업 편람 게시</span>
+            <p>2022.01.11 </p>
+          </a></div>
+      </div>
+    </div>
+
+    <div id="cic">
+      <h2>고객센터</h2>
+      <ol>
+        <li>한국에너지공단 대표전화 : <b>052)920-0114</b></li>
+        <li>신재생 에너지 콜센터전화 : <b>1855-3020</b><br><span>[상담내용: 보급사업, 금융지원, RPS사업]</span></li>
+        <li>CDM 인증센터 전화 : <b>052)920-0590, 0593</b></li>
+        <li>업무시간 9:00 ~ 18:00</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- ===== 3 page ===== -->
+  <div id="page3">
+    <div id="card">
+      <div class="card-box">
+        <h2 class="card_tit">KEA 카드 뉴스</h2>
+        <ul class="cardslider">
+          <li><a href="#none"><img src="img/card1.png" alt="card1"></a></li>
+          <li><a href="#none"><img src="img/card2.png" alt="card2"></a></li>
+          <li><a href="#none"><img src="img/card3.png" alt="card3"></a></li>
+          <li><a href="#none"><img src="img/card4.png" alt="card4"></a></li>
+          <li><a href="#none"><img src="img/card5.png" alt="card5"></a></li>
+          <li><a href="#none"><img src="img/card6.png" alt="card6"></a></li>
+          <li><a href="#none"><img src="img/card7.png" alt="card7"></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="power_item">
+      <h1>실시간전력 수급 현황</h1>
+      <div><img src="img/power.png" alt=""></div>
+    </div>
+
+    <div id="quick_menu">
+      <img src="img/quick.png" alt="">
+
+      <ul class="quick-box">
+        <li><a href="#none">청렴자료실</a></li>
+        <li><a href="#none">시규(규정)</a></li>
+        <li><a href="#none">제·개정예고</a></li>
+        <li><a href="#none">입찰공고</a></li>
+        <li><a href="#none">수의계약현황</a></li>
+        <li><a href="#none">지자체감사결과</a></li>
+        <li><a href="#none">업무추진비</a></li>
+        <li><a href="#none">선물반송처리결과</a></li>
+        <li><a href="#none">부패공직자현황</a></li>
+        <li><a href="#none">부패방지 평가결과</a></li>
+        <li><a href="#none">청렴도 측정결과</a></li>
+        <li><a href="#none">공익신고</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== footer ===== -->
+  <footer>
+    <div class="ft-banner">
+      <div class="ft-banner-box">
+        <ul class="ft-banner-slider">
+          <li><a href="#none"><img src="img/banner/banner_1.gif" alt="banner_1"></a></li>
+          <li><a href="#none"><img src="img/banner/banner_2.gif" alt="banner_2"></a></li>
+          <li><a href="#none"><img src="img/banner/banner_3.gif" alt="banner_3"></a></li>
+          <li><a href="#none"><img src="img/banner/banner_4.gif" alt="banner_4"></a></li>
+          <li><a href="#none"><img src="img/banner/banner_5.gif" alt="banner_5"></a></li>
+          <li><a href="#none"><img src="img/banner/banner_6.gif" alt="banner_6"></a></li>
+          <li><a href="#none"><img src="img/banner/banner_7.gif" alt="banner_7"></a></li>
+          <li><a href="#none"><img src="img/banner/banner_8.gif" alt="banner_8"></a></li>
+          <li><a href="#none"><img src="img/banner/banner_9.gif" alt="banner_9"></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="ft-link">
+      <ul class="ft-link-box">
+        <li><a href="#none">개인정보처리방침</a></li>
+        <li><a href="#none">이메일무단수집거부</a></li>
+        <li><a href="#none">뷰어프로그램안내</a></li>
+        <li><a href="#none">본사·지역본부 약도보기</a></li>
+        <li><a href="#none">홈페이지 개선의견</a></li>
+        <li><a href="#none">RSS안내</a></li>
+        <li><a href="#none">사이트맵</a></li>
+        <li><a href="#none">원격지원</a></li>
+        <li><a href="#none">조직도</a></li>
+      </ul>
+    </div>
+
+    <div class="ft-info">
+      <div class="ft-info-inner">
+        <div class="logo">
+          <img src="img/logo3.png" alt="logo2">
+        </div>
+
+        <div class="info">
+          <span>우) 44538 울산광역시 중구 종가로 323 (우정동 528-1)</span><br>
+          <span>323, Jongga-ro, Jung-gu, Ulsan, Republic of Korea</span><br>
+          <span>대표전화) 052-920-0114</span><br>
+          <br>
+          <span>CopyRight &copy; 2022 KOREA ENERGY. ALL Rights Reserved</span>
+        </div>
+
+        <div class="sns">
+          <div class="sns-btn">
+            <span class="active2">facebook</span>
+            <span class="active3">YOUTUBE</span>
+            <span class="active4">NAVERblog</span>
+          </div>
+
+          <div class="sns-box">
+            <div class="facebook">
+              <a href="https://www.facebook.com/koreaenergy"><img src="img/facebook.gif" alt=""></a>
+            </div>
+
+            <div class="youtube">
+              <a href="https://www.youtube.com/user/KoreaEnergy"><img src="img/youtube.jpg" alt=""></a>
+            </div>
+
+            <div class="naverblog">
+              <a href="https://blog.naver.com/kea_sese"><img src="img/naverblog.gif" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="bottom"></div>
+
+  <!-- custom.js -->
+  <script src="script/custom.js"></script>
+
+  <a href="#" id="toTop">↑</a>
+  <a href="#bottom" id="toBot">↓</a>
+
+  <script>
+    // 카드뉴스
+    $(document).ready(function () {
+      $('.cardslider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        speed: 300,
+        autoplaySpeed: 100,
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 800,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+    });
+
+    // 배너
+    $('.ft-banner-slider').slick({
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      arrows: true,
+      autoplaySpeed: 2000,
+      pauseOnHover: false
+    });
+
+    $('.banner-left').click(function () {
+      $('.ft-banner-slider').slick('slickPlay');
+    });
+
+    $('.banner-right').click(function () {
+      $('.ft-banner-slider').slick('slickPause');
+    });
+  </script>
+</body>
+
+</html>
